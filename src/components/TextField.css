@@ -1,0 +1,12 @@
+.label { 
+    margin-right: 10px;
+    color:black;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.valuess{
+    height: 20px;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
