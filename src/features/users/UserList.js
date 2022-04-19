@@ -7,7 +7,6 @@ import "../../components/Button.css";
 const UserList = () => {
   const dispatch = useDispatch();
   const users = useSelector(store => store.users);
-
   const handleRemoveUser = (id) => {
     dispatch(deleteUser({ id }));
     console.log(id);
